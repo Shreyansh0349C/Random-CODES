@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.search-container input {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* 🔴 THIS WAS MISSING */
+#section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Movie card */
+.card {
+  background-color: #020617;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
